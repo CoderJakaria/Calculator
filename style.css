@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body
+{
+     background-image: url(bg.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-position: center;
+}
+.centercalcy
+{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+form
+{
+     width: 400px;
+     height: 520px;
+     box-shadow: 0 0 10px 1px grey;
+}
+
+#app_name
+{
+     width: inherit;
+     font-size: 0.8rem;
+     background-color: #303030;
+     color: white;
+     border: none;
+     outline: none;
+     padding: 2px 0 2px 10px;
+     font-family: 'Poppins', sans-serif;
+}
+
+#display_answer
+{
+     width: inherit;
+     height: 100px;
+     background-color: #303030;
+     font-size: 2rem;
+     color: white;
+     text-align: right;
+     outline: none;
+     border: none;
+}
+
+.layer1
+{
+     width: inherit;
+     display: flex;
+     height: 90px;
+     justify-content: center;
+}
+
+.layer2
+{
+     width: inherit;
+     display: flex;
+     height: 40px;
+     justify-content: center;
+}
+
+input
+{
+     flex: 1;
+     font-size: 1.4rem;
+     color: white;
+     border: 1px solid #504f4f;
+     outline: none;
+}
+
+.main_num
+{
+     background-color: #101011;
+     color: white;
+}
+
+.oper
+{
+     background-color: #303030;
+}
+
+#clearButton
+{
+     font-size: 1.3rem;
+
+}
+
+input:hover
+{
+     background-color: #474747;
+     border: 1px solid grey;
+}
